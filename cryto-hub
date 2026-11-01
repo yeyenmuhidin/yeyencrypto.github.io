@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yeyen Crypto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Yeyen Crypto</h1>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="tentang">
+    <h2>Tentang Proyek</h2>
+    <p>Yeyen Crypto adalah proyek token komunitas yang fokus pada edukasi, farming, dan inovasi blockchain.</p>
+  </section>
+
+  <section id="tokenomics">
+    <h2>Tokenomics</h2>
+    <ul>
+      <li>Supply Total: 1,000,000 YYN</li>
+      <li>Distribusi: 40% komunitas, 30% airdrop, 20% tim, 10% cadangan</li>
+    </ul>
+  </section>
+
+  <section id="roadmap">
+    <h2>Roadmap</h2>
+    <ol>
+      <li>Q4 2026: Launch token & website</li>
+      <li>Q1 2027: Listing di DEX</li>
+      <li>Q2 2027: Integrasi DeFi & NFT</li>
+    </ol>
+  </section>
+
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Pesan"></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Yeyen Crypto</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0d0d0d;
+  color: #f0f0f0;
+}
+header {
+  background: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #00ffcc;
+  text-decoration: none;
+}
+section {
+  padding: 40px;
+}
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 10px;
+}
+button {
+  background: #00ffcc;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
