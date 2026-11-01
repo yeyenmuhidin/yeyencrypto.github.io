@@ -84,3 +84,22 @@ button {
   padding: 10px 20px;
   cursor: pointer;
 }
+yeyencrypto.github.io/
+ ├── index.html
+ ├── style.css
+ └── logo.png   (opsional, untuk logo token)
+<script>
+  const connectWalletBtn = document.getElementById('connectWallet');
+  connectWalletBtn.addEventListener('click', async () => {
+    if (window.ethereum) {
+      try {
+        const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+        alert("Wallet terhubung: " + accounts[0]);
+      } catch (error) {
+        alert("Gagal menghubungkan wallet: " + error.message);
+      }
+    } else {
+      alert("MetaMask tidak ditemukan. Silakan install terlebih dahulu.");
+    }
+  });
+</script>
